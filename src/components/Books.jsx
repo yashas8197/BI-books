@@ -2,8 +2,9 @@ import useFetch from "../useFetch";
 
 const Books = () => {
   const { data, loading, error } = useFetch(
-    "https://d04d69ac-c233-4ab4-bced-b94f636394aa-00-15shw5bbnt4z0.worf.replit.dev/books",
+    "https://d04d69ac-c233-4ab4-bced-b94f636394aa-00-15shw5bbnt4z0.worf.replit.dev/book",
   );
+  console.log(data);
   return (
     <div>
       <h1>All Books</h1>
